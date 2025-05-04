@@ -19,7 +19,7 @@ public class AppLv3 {
                 char operSymbol = scanner.next().charAt(0);
                 OperatorType operatorType = OperatorType.fromChar(operSymbol);
 
-                double result = calculator.calculatate(firstNum, secondNum, operatorType);
+                double result = calculator.calculate(firstNum, secondNum, operatorType);
             } catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
                 continue;

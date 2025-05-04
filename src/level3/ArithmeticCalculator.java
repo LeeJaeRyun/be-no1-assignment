@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class ArithmeticCalculator<T extends Number> {
     private final List<Double> resultList = new ArrayList<>();
 
-    public double calculatate(T firstnum, T secondnum, OperatorType operator) {
+    public double calculate(T firstnum, T secondnum, OperatorType operator) {
         double a = firstnum.doubleValue();
         double b = secondnum.doubleValue();
         double result;
